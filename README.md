@@ -1,1 +1,1 @@
-# $textcolor{BlueGreen}{Metode Klasifikas}$
+# $\textcolor{BlueGreen}{Metode Klasifikas}$
