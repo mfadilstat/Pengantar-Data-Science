@@ -1,1 +1,1 @@
-# <font color="green">Metode Klasifikas</font>
+# $textcolor{BlueGreen}{Metode Klasifikas}$
