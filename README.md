@@ -27,3 +27,8 @@ import pandas as pd
 import numpy as np
 ```
 
+### 1.2 Menampilkan Data Set
+```python
+data_olah = pd.read_csv('Data\dataR2.csv')
+data_olah.head()
+```
