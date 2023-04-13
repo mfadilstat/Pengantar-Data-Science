@@ -32,3 +32,5 @@ import numpy as np
 data_olah = pd.read_csv('Data\dataR2.csv')
 data_olah.head()
 ```
+![image](https://user-images.githubusercontent.com/117576737/231871013-0ae3516d-3291-4872-b97c-89974bfda0e8.png)
+
