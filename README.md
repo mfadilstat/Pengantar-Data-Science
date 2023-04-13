@@ -22,7 +22,7 @@ reference:
 Patrício, M., Pereira, J., Crisóstomo, J., Matafome, P., Gomes, M., Seiça, R., & Caramelo, F. (2018). Using Resistin, glucose, age and BMI to predict the presence of breast cancer. BMC Cancer, 18(1).
 
 ### 1.1 Import library
-```(python)
+```[python]
 import pandas as pd
 import numpy as np
 ```
