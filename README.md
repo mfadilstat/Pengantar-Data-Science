@@ -34,3 +34,17 @@ data_olah.head()
 ```
 ![image](https://user-images.githubusercontent.com/117576737/231871013-0ae3516d-3291-4872-b97c-89974bfda0e8.png)
 
+### 1.3 Split Data
+```python
+from sklearn.model_selection import train_test_split
+X = data_olah.iloc[:,:-1]
+y = data_olah.iloc[:,-1]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25)
+print('Jumlah data train:',len(X_train))
+print('Jumlah data test :',len(X_test))
+```
+output:
+```
+Jumlah data train: 87
+Jumlah data test : 29
+```
