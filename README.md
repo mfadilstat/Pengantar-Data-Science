@@ -33,6 +33,7 @@ data_olah = pd.read_csv('Data\dataR2.csv')
 data_olah.head()
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231871013-0ae3516d-3291-4872-b97c-89974bfda0e8.png)
 
 ### 1.3 Split Data
@@ -63,6 +64,7 @@ data_olah.iloc[:,:-1].hist(figsize=(10,10), color='#01b1b5')
 plt.show()
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231871840-ca527c1a-f331-4162-942f-69b52f9f58c3.png)
 ![image](https://user-images.githubusercontent.com/117576737/231871912-6dcdb562-c4a4-49ce-94b8-3b52c275b5f8.png)
 ![image](https://user-images.githubusercontent.com/117576737/231872015-4a251425-9243-49f7-8dd4-62760d9af142.png)
@@ -94,6 +96,7 @@ p.gca().add_artist(my_circle)
 plt.show()
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231872252-e13ffb2e-e2cc-4976-adf6-ac4c4b251f82.png)
 ```python
 ## Visualisasi Hubungan Umur dengan Variabel lain ##
@@ -116,6 +119,7 @@ for i in data_olah.columns:
     tmp0 += 1
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231872548-1ede6288-b2b3-497d-9ff6-2edd76a9d61f.png)
 ![image](https://user-images.githubusercontent.com/117576737/231872500-23425d87-b1b7-4da8-9b66-339174b5734c.png)
 ![image](https://user-images.githubusercontent.com/117576737/231872583-4d9ca79e-8189-4ef2-94dd-befcb8cfb1c8.png)
@@ -184,6 +188,7 @@ plt.tight_layout()
 plt.show()
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231873260-9be7b730-230c-44f6-889e-d6578df752b9.png)
 ```python
 print("Nilai Akurasi terbaik ada pada ", 
@@ -218,6 +223,7 @@ tree.plot_tree(tree_method)
 plt.show()
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231873675-6e1cc9b4-2702-4fd2-98d1-632ac0d9e19a.png)
 ### 2.3 Nive Bayes
 ```python
@@ -255,6 +261,7 @@ def get_conf_matriks(y_actual, y_predic, cmap = None, title='Tidak ada', ):
 get_conf_matriks(y_test, y_pred_knn, title='Matriks Confution K-NN')
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231874171-d35e3330-96f5-43e2-818a-c5257adaed89.png)
 ```
 Hasil Confution Matriks :58.62%
@@ -264,6 +271,7 @@ Hasil Confution Matriks :58.62%
 get_conf_matriks(y_test, y_pred_tree, title='Matriks Confution Decition Tree')
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231874353-ad740906-88ec-4bea-a968-1e856ef6f6f1.png)
 ```
 Hasil Confution Matriks :75.86%
@@ -273,6 +281,7 @@ Hasil Confution Matriks :75.86%
 get_conf_matriks(y_test, y_pred_bayes, title='Matriks Confution Nive Bayes')
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231874469-1240ce86-c089-4f40-9de5-6f8e547efe34.png)
 
 ```
@@ -284,6 +293,7 @@ Dari ketiga metode yang digunakan yaitu K-NN, Decitioin Tree, dan Nive Bayes unt
 get_conf_matriks(y_test, y_pred_tree, title='Matriks Confution Decition Tree')
 ```
 output:
+
 ![image](https://user-images.githubusercontent.com/117576737/231874353-ad740906-88ec-4bea-a968-1e856ef6f6f1.png)
 ```
 Hasil Confution Matriks :75.86%
