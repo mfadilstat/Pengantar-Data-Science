@@ -1,1 +1,1 @@
-"# Pengantar Data Science" 
+# <font color='008080'><center>Metode Klasifikas</center></font>
