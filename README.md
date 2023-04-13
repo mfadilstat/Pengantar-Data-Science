@@ -1,1 +1,1 @@
-# $\textcolor{BlueGreen}{Metode Klasifikas}$
+# Metode Klasifikas
